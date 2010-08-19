@@ -1,0 +1,9 @@
+MIDlet-1: MFL,,com.github.pepe79.mfl.MFL
+MIDlet-Jar-Size: 52731
+MIDlet-Jar-URL: mfl.jar
+MIDlet-Name: MFL - Mobile File Loader
+MIDlet-Vendor: pepe79
+MIDlet-Version: 0.1.24
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+Nokia-MIDlet-On-Screen-Keypad: no
