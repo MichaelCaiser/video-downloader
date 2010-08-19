@@ -1,7 +1,8 @@
 MIDlet-1: MFL,,com.github.pepe79.mfl.MFL
 MIDlet-Vendor: pepe79
 MIDlet-Name: MFL - Mobile File Loader
-MIDlet-Version: 0.1.24
+MIDlet-Version: 0.1.25
+MIDlet-Icon: /mfl.png
 Nokia-MIDlet-On-Screen-Keypad: no
 MicroEdition-Configuration: CLDC-1.1
 MicroEdition-Profile: MIDP-2.0
