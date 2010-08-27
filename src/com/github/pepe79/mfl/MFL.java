@@ -1,5 +1,7 @@
 package com.github.pepe79.mfl;
 
+import com.github.pepe79.mfl.analytics.GA;
+
 import com.github.pepe79.mfl.exceptions.FileSecurityException;
 import com.github.pepe79.mfl.filebrowser.FileBrowser;
 import com.github.pepe79.mfl.log.ConsoleAppender;
@@ -397,6 +399,7 @@ public class MFL extends MIDlet implements CommandListener
 
 						listImageLoader = new AsynchronousListImageLoader(searchResults, imageUrls);
 						listImageLoader.start();
+						GA.track(query.getString());
 					}
 					catch (Exception e)
 					{
